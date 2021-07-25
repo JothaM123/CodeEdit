@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>CodeEdit | Editor</title>
+        <script src = "script.js"></script>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <div id = "nav">CodeEdit</div>
+        <br>
+        <span id = "codearea">
+            <textarea id = "html" placeholder="HTML code here" oninput = "change()"></textarea>
+            <br><br>
+            <textarea id = "css" placeholder="CSS code here" oninput="change()"></textarea>
+            <br><br>
+            <textarea id = "js" placeholder="JavaScript code here" oninput="change()"></textarea>
+        </span>
+
+        <br><br>
+
+        <span id = "preview">
+            <iframe id = "preview-content"></iframe>
+        </span>
+    </body>
+</html>
